@@ -1,0 +1,369 @@
+*{
+
+    padding: 0;
+    margin: 0;
+}
+
+.Selects{
+
+    height: 100%;
+    border-radius: 10px 0px 0px 10px;
+    background-color: rgb(230, 230, 230);
+    color: #565959;
+    border: none;
+    font-size: 15px;
+}
+
+
+
+
+.search_box{
+
+    height: 100%;
+    width: 19.2em;
+    border: none;
+  
+}
+
+.BTNBuscar{
+
+    width: 63px;
+    height: 100%;
+    border: 3px solid #F0AD64;
+    border-radius: 0px 10px 10px 0px;
+    background-color: #F0AD64;
+    color: white;
+    font-size: 15px;
+}
+
+.CarritoIcon{
+
+    
+    margin-right: 30px;
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+li{
+    margin-left: 15px;
+}
+
+.List:hover{
+
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.card{
+
+    width: 14.5rem;
+}
+
+.SeccionContenido{
+
+    background-color: rgb(235, 235, 235);
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1em;
+}
+
+.FooterTitle{
+    text-align: center;
+    margin-left: 550px;
+    cursor: pointer;
+}
+
+.FooterContenido{
+
+    height: 400px;
+    background-color: #1e2733;
+    color: white;
+    
+}
+
+.FooterContenido ul {
+
+    display: flex;
+    margin-left: 20px;
+    padding-top: 50px;
+    list-style: none;
+}
+
+.FooterContenido ul li{
+
+    
+    margin-left: 100px;
+   
+}
+
+.recuadro{
+
+    width: 350px;
+    height: 280px;
+    border: 1px solid #aaaaaa;
+    border-radius: 5px;
+    margin-left: -100px;
+    margin-top: 10px;
+    padding-left: 30px;
+    padding-top: 20px;
+    font-size: 13px;
+    
+    
+}
+.recuadro h1{
+
+    font-size: 30px;
+}
+
+.recuadro input{
+
+    width: 90%;
+    font-size: 15px;
+    height: 30px;
+    transition: 0.5s;
+    border-radius: 5px;
+    padding: 10px;
+    border-bottom: 4px solid #fdb567;
+    border-left: 1px solid #fdb567;
+    border-right: 1px solid #fdb567;
+    border-top: 1px solid #fdb567;
+    
+}
+
+.recuadro button{
+
+    width: 90%;
+    font-size: 15px;
+    height: 30px;
+    margin-top: 10px;
+    transition: 0.5s;
+    background-color: #fdb567;
+    border-radius: 5px;
+    border: none;
+}
+
+.recuadro button:hover{
+    background-color: #d69855;
+}
+
+.recuadro input:hover{
+
+    box-shadow: 0px 0px 10px 2px #F0AD64;
+    border-bottom: 2px solid #fdb567;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+
+
+}
+
+.container_login{
+
+    padding-left: 550px;
+    margin-top: 40px;
+}
+
+.register{
+
+    width: 350px;
+    text-align: center;
+    height: 90px;
+    margin-left: -100px;
+    margin-top: 10px;
+    font-size: 13px;
+    
+}
+
+.Pregister::after, .Pregister::before{
+
+    content: '';
+    position: absolute;
+    width:90px;
+    height: 1px;
+    background-color: rgb(204, 204, 204);
+    top: 29.9em;
+}
+
+.Pregister::before{
+
+    left: 455px;
+}
+
+.Pregister::after{
+
+    left: 705px;
+}
+
+.register button{
+
+    width: 98%;
+    font-size: 15px;
+    height: 30px;
+    margin-top: 10px;
+    transition: 0.5s;
+    background-color: #e8e8e8;
+    border-radius: 5px;
+   border: 1px solid #c9c9c9;
+   margin-top: -12px;
+}
+
+.register button:hover{
+
+    background-color: #bababa;
+}
+
+.footerLogin{
+
+    width: 100%;
+    height: 50px;
+    background-color: #e4e4e4;
+    padding-left: 390px;
+    padding-top: 10px;
+    display: flex;
+}
+
+.footerLogin p{
+    margin-left: 50px;
+    font-size: 12px;
+}
+
+.creditos{
+
+    width: 100%;
+    height: 50px;
+    background-color: #e4e4e4;
+    font-size: 12px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.recuadroRegister{
+
+    width: 350px;
+    height: 400px;
+    border: 1px solid #aaaaaa;
+    border-radius: 5px;
+    margin-left: -100px;
+    margin-top: 10px;
+    padding-left: 30px;
+    padding-top: 20px;
+    font-size: 13px;
+}
+
+.recuadroRegister input{
+
+    width: 90%;
+    font-size: 15px;
+    height: 30px;
+    transition: 0.5s;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 10px;
+    border-bottom: 4px solid #fdb567;
+    border-left: 1px solid #fdb567;
+    border-right: 1px solid #fdb567;
+    border-top: 1px solid #fdb567;
+}
+
+.recuadroRegister button{
+
+    width: 90%;
+    font-size: 15px;
+    height: 30px;
+    margin-top: 10px;
+    transition: 0.5s;
+    background-color: #fdb567;
+    border-radius: 5px;
+    border: none;
+}
+
+.General{
+
+    padding: 70px 10px 10px 70px;
+    display: flex;
+}
+
+.miniatura{
+
+    position: fixed;
+    /* z-index: 1; */
+    height: 90px;
+}
+
+.miniatura img{
+
+        width: 70px;
+        height: 70px;
+        display: grid;
+        cursor: pointer;
+        border: 2px solid rgb(221, 221, 221);
+        border-radius: 10px;
+        margin-top: 13px;
+        
+}
+
+.miniatura img:hover{
+
+    border: 2px solid rgb(119, 119, 119);
+}
+
+.vistaGrande{
+
+    width: 400px;
+    height: 450px;
+    margin-top: 14px;
+    margin-left: 100px;
+}
+
+.vistaGrande img{
+
+    width: 400px;
+}
+
+.InformacionArticulo{
+    width: 370px;
+    margin-top: 14px;
+   
+    
+}
+
+.InformacionArticulo h1{
+    font-size: 25px;
+}
+
+.precios{
+
+    width: 220px;
+    border-radius: 10px;
+    height: 320px;
+    margin-top: 14px;
+    border: 2px solid rgb(119, 119, 119);
+}
+
+.precios h1{
+    color: #e99337;
+}
+
+.precios button{
+
+    width: 90%;
+    font-size: 15px;
+    height: 30px;
+    margin-top: 10px;
+    transition: 0.5s;
+    background-color: #fdb567;
+    border-radius: 5px;
+    border: none;
+    margin-left: 8px;
+   margin-right: -50px;
+    
+}
+.puede{
+    color: red;
+}
+
+.transaccion{
+
+    margin-left: 35px;
+}
